@@ -1,0 +1,1 @@
+cat /Volumes/data.2/data/can.brev/Undetermined.reads/Undetermined_from_190130_NS500585_0238_AH2CGJAFXY_L001/Undetermined_S0_L001_R1_001.fastq | awk -f /Volumes/HD/projects/can.brev/scripts/test.awk > barcodes.other.txt
