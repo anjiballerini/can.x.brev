@@ -1,5 +1,6 @@
 READ.ME for can.x.brev
 
+Raw sequence data can be found in the SRA Project PRJNA720109
 
 1. align the sequence for the parents and the F2s
 	
