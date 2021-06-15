@@ -5,5 +5,6 @@ project participants:
 Molly B. Edwards, Gary P. T. Choi, Nathan J. Derieg, Ya Min, Angie C. Diana, Scott A. Hodges  L. Mahadevan, Elena M. Kramer, Evangeline S. Ballerini
 
 "info" folder contains information about the scripts used
+
 "scripts" folder contains scripts used
 
