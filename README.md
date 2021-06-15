@@ -1,4 +1,9 @@
 # can.x.brev
-info and files for the canadensis/brevistyla QTL mapping project
+info and files related to the manuscript:	Genetic architecture of floral traits in bee- and hummingbird-pollinated sister species of Aquilegia (columbine)
+
 project participants:
-Evangeline S. Ballerini, Molly Edwards, Ya Min, Elena Kramer, and Scott Hodges
+Molly B. Edwards, Gary P. T. Choi, Nathan J. Derieg, Ya Min, Angie C. Diana, Scott A. Hodges  L. Mahadevan, Elena M. Kramer, Evangeline S. Ballerini
+
+"info" folder contains information about the scripts used
+"scripts" folder contains scripts used
+
