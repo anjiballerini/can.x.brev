@@ -39,6 +39,6 @@ READ.ME for can.x.brev
 	-significant improvements were made by adjusting some markers to fall in line with physical map or prior map estimates 
 	- some randomness to the initial map estimate, therefore not all coded
 	
-8. final genetic map coordinates, genotypes, and phenotypes for F2s provided in 
+8. final genetic map coordinates, genotypes, and phenotypes for F2s provided in the following file:
 
 	canxbrev.pheno.geno.table.csv
