@@ -1,0 +1,44 @@
+READ.ME for can.x.brev
+
+
+1. align the sequence for the parents and the F2s
+	
+	script	align.parents.sh
+	output	/align.parents
+	
+	script	align.genomic.multifile.sh
+	output	/align.v3
+	
+2. call variants in the parents, identify sites homozygous for alternate alleles
+
+	script	call.variants.parents.sh
+	output	/F2.genotyp/ID.alleles
+	
+3. generate read counts for different alleles at variable positions
+
+	script	counts.F2.loop.sh
+	script	count.alleles.pl
+	output	/F2.genotype/counts
+	
+4. assign ancestry to each assignable read for each F2
+
+	script	assign.ancestry.loop.sh
+	output	/ancestry
+	
+5. generate table of A. canadensis allele frequencies in marker bins
+
+	script	genotype.part1.R
+	output	/allele.freq.tables
+	
+6. convert frequencies to genotypes (A, H, B) for each bin, combine into 1 table ready for map estimation/combining with phenotypes for QTL mapping using Rqtl
+
+	script	genotype.part2.R
+	output	genotype.table.out.txt
+	
+7. initial map estimation done following best practices in Rqtl tutorials, however, 
+	-significant improvements were made by adjusting some markers to fall in line with physical map or prior map estimates 
+	- some randomness to the initial map estimate, therefore not all coded
+	
+8. final genetic map coordinates, genotypes, and phenotypes for F2s provided in 
+
+	canxbrev.pheno.geno.table.csv
